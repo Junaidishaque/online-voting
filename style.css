@@ -1,0 +1,22 @@
+body{background: url(General-Election-piece.webp);
+background-repeat: no-repeat;
+background-size: cover; margin: 0%;
+padding: 0%;
+
+box-sizing: border-box;
+}
+img{
+    opacity: 0.2;
+}
+h1{font-size: 70px;
+text-align: center;}
+#addFriend{height: 40px;
+width: 300px; font-size:20px ;}
+#addNew{width: 150px;
+height: 40px; font-size: 20px; background-color: black; color: white;}
+#container{margin-left: 550px;
+width: 500px; height: 500px; padding:20px ;-webkit-box-shadow: 10px 10px 5px 34px rgba(0,0,0,0.65);
+-moz-box-shadow: 10px 10px 5px 34px rgba(0,0,0,0.65);
+box-shadow: 10px 10px 5px 34px rgba(0,0,0,0.65);
+}
+#output tr td{font-size: 40px; font-weight: bold; padding-left: 50px; text-transform: capitalize;}
