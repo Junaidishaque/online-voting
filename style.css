@@ -5,18 +5,21 @@ padding: 0%;
 
 box-sizing: border-box;
 }
-img{
-    opacity: 0.2;
-}
-h1{font-size: 70px;
-text-align: center;}
+h1{font-size: 40px!important;
+text-align: center; }
 #addFriend{height: 40px;
-width: 300px; font-size:20px ;}
-#addNew{width: 150px;
-height: 40px; font-size: 20px; background-color: black; color: white;}
-#container{margin-left: 550px;
-width: 500px; height: 500px; padding:20px ;-webkit-box-shadow: 10px 10px 5px 34px rgba(0,0,0,0.65);
--moz-box-shadow: 10px 10px 5px 34px rgba(0,0,0,0.65);
-box-shadow: 10px 10px 5px 34px rgba(0,0,0,0.65);
+width: 250px; font-size:15px ;}
+#addNew{width: 100px; margin-top: 10px;
+height: 40px; font-size: 15px; background-color: black; color: white;}
+#new{-webkit-box-shadow: 10px 10px 5px 30px rgba(0,0,0,0.50);
+-moz-box-shadow: 10px 10px 5px 30px rgba(0,0,0,0.50);
+box-shadow: 10px 10px 5px 30px rgba(0,0,0,0.50); width:400px; height: 600px; margin-top: 50px; 
 }
 #output tr td{font-size: 40px; font-weight: bold; padding-left: 50px; text-transform: capitalize;}
+@media (min-width:600px) {
+    #new{margin-left: 400px; width: 500px;}
+    h1{font-size: 70px!important;}
+    #addFriend{width: 350px;font-size: 25px;}
+    #addNew{font-size: 25px;width: 140px;}    
+    
+}
